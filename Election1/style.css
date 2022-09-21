@@ -1,0 +1,635 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.main{
+    height: 100vh;
+    width: 100vw;
+}
+.top{
+    width: 100%;
+    height: 15%;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.topimage{
+    height: 100%;
+    width: 100%;
+}
+.logo{
+    height: 60%;
+    width: 15%;
+    position: absolute;
+    left: 3.4%;
+}
+.text1{
+    position: absolute;
+    left: 30%;
+    top: 40%;
+    font-size: 1.5rem;
+    font-family: Poppins;
+    color: white;
+}
+.line{
+    position: absolute;
+    left: 42%;
+    top: 35.5%;
+    height: 34.5%;
+    width: 0.2%;
+    background-color: white;
+}
+.text2{
+    position: absolute;
+    left: 43.5%;
+    font-size: 2rem;
+    color: white;
+    font-family: Poppins;
+    font-weight: 600;
+}
+.fe{
+    position:absolute;
+    bottom: 4%;
+    right: 19.5%;
+    height: 22%;
+    width: 10%;
+    background-color: black;
+    border: 0.05rem solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fetext>a{
+    color: white;
+    text-align: center;
+    font-weight: 200;
+}
+.fe:hover{
+        background-color: rgb(165, 165, 165);
+    }
+
+a{
+    text-decoration: none;
+}
+.pa{
+    position:absolute;
+    bottom: 4%;
+    right: 8.5%;
+    height: 22%;
+    width: 10%;
+    background-color:white;
+    font-weight: 200;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pa>a{
+    color: black;
+    font-weight: 200;
+}
+.pa:hover{
+    background-color: rgb(165, 165, 165);
+}
+.nationaltext{
+    font-size: 2.5rem;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    color: rgba(39, 164, 70, 1);
+    text-align: center;
+}
+.bottom{
+    width: 100%;
+    height: 74.5%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.topyellowbox{
+    height: 3%;
+    width: 80%;
+    background-color: rgba(255, 186, 7, 1);
+}
+.contentbox{
+    border: 0.15rem solid rgba(39, 164, 70, 1);
+    height: 88%;
+    width: 80%;
+    margin-top: 0.1%;
+}
+.bottomtop{
+    border: 0.03rem solid rgba(39, 164, 70, 1);
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: space-between;
+}
+.kathmandu{
+    height: 100%;
+    width: 25%;
+    border: 0.01rem solid rgba(39, 164, 70, 1);
+    background-color: rgba(39, 164, 70, 1);
+    color: white;
+    font-size: 2rem;
+    font-family: Poppins;
+    font-weight: 800;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.kathmandu>p{
+    font-size: 1.6vmax;
+}
+.kathmanduyellowbox{
+    height: 14%;
+    width: 100%;
+    background-color: rgba(255, 186, 7, 1);
+    position: absolute;
+    bottom: 1%;
+    left: -0.4%;
+}
+.search{
+    height: 100%;
+    width: 25%;
+    border: 0.01rem solid rgba(39, 164, 70, 1);
+    background-color:rgba(39, 164, 70, 1) ;
+    font-size: 1.8rem;
+    font-family: Poppins;
+    color: rgba(255, 255, 255, 0.76);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.search>p{
+    font-size: 1.6vmax;
+}
+.searchbotton{
+    position: absolute;
+    left: 10%;
+    height: 30%;
+    width: 10%;
+}
+.combinetableanddata{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.tablebox{
+    height: 65%;
+    width: 40%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background-color: white;
+    margin-left: 2%;
+   
+}
+.pointstable{
+    margin-left: 6%;
+    height: 90%;
+    width: 90%;
+    border-collapse: collapse;
+}
+.tableheading{
+    font-size: 1rem;
+    font-family: Poppins;
+    font-weight: 800;
+    color: rgba(99, 93, 93, 1);
+    border-bottom: 0.25rem solid rgba(255, 186, 7, 1);
+}
+.tableCPN{
+    font-family: Poppins;
+    color: rgba(249, 74, 74, 1);
+    border-bottom: 0.1rem solid rgba(255, 186, 7, 1);
+}
+.tablenepalicongress{
+    font-family: Poppins;
+    color: rgba(73, 170, 77, 1);
+    border-bottom: 0.1rem solid rgba(255, 186, 7, 1);
+}
+.tablemaoist{
+    font-family: Poppins;
+    color: rgba(237, 27, 35, 1);
+    border-bottom: 0.1rem solid rgba(255, 186, 7, 1);
+}
+.others{
+    font-family: Poppins;
+    color: rgba(63, 63, 63, 1);
+}
+.otherslogo{
+    height: 72%;
+    width: 50%;
+    background-color: rgba(217, 217, 217, 1);
+    border-radius: 50%;
+    margin-top: 10%;
+}
+.graphdata{
+    height: 65%;
+    width: 50%;
+}
+.graphtopdata{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+}
+.topimage1{
+    height: 50%;
+    width: 10%;
+}
+.barinfotop{
+    width: 60%;
+    height: 20%;
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(239, 233, 233, 1);
+    border-radius: 1rem 1rem 1rem 1rem ;
+}
+.innerbar1{
+    height: 100%;
+    width: 59%;
+    background-color: rgba(255, 0, 0, 1);
+    border-radius: 1rem 0 0 1rem ;
+}
+.innerbar2{
+    height: 100%;
+    width: 39%;
+    background-color: rgba(0, 128, 0, 1);
+    border-radius: 0 1rem 1rem 0 ;
+}
+.toptext{
+    height: 50%;
+    width: 12%;
+    text-align: center;
+    margin-top: 8%;
+}
+h3{
+    font-size: 1.5rem;
+    font-family: Poppins;  
+}
+.t1{
+    position: absolute;
+    font-size: 1.7rem;
+    font-weight: 800;
+    font-family: Poppins;
+    top: 25%;
+    left: 20%;
+}
+.t2{
+    position: absolute;
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: Poppins;
+    color: rgba(255, 0, 0, 1);
+    top: 33%;
+    left: 27%;   
+}
+.t3{
+    position: absolute;
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: Poppins;
+    top: 33%;
+    left: 57.5%; 
+    color: rgba(0, 128, 0, 1); 
+}
+.t4{
+    position: absolute;
+    font-size: 1.7rem;
+    font-weight: 800;
+    font-family: Poppins;
+    top: 25%;
+    left: 71%;
+}
+
+.graphbottomdata{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+}
+.bottomimage1{
+    height: 50%;
+    width: 12%;
+}
+.t5{
+    position: absolute;
+    font-size: 1.7rem;
+    font-weight: 800;
+    font-family: Poppins;
+    top: 25%;
+    left: 20%;
+}
+.t6{
+    position: absolute;
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: Poppins;
+    top: 32%;
+    left: 27%;
+    color: rgba(237, 27, 35, 1);
+}
+.t7{
+    position: absolute;
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: Poppins;
+    top: 32%;
+    left: 62.5%;
+    color:  rgba(63, 63, 63, 1); 
+}
+.t8{
+    position: absolute;
+    font-size: 1.7rem;
+    font-weight: 800;
+    font-family: Poppins;
+    top: 25%;
+    left: 72%;
+}
+.barinfobottom{
+    width: 60%;
+    height: 20%;
+    background-color: rgba(239, 233, 233, 1);
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 1rem 1rem 1rem 1rem ;
+}
+.innerbar11{
+    height: 100%;
+    width: 10%;
+    background-color: rgba(255, 0, 0, 1);
+    border-radius: 1rem 0 0 1rem ;
+}
+.innerbar22{
+    height: 100%;
+    width: 10%;
+    background-color: rgba(63, 63, 63, 1);
+    border-radius: 0 1rem 1rem 0 ;
+}
+.bottomimage2{
+    height: 50%;
+    width: 13%;
+}
+@media (max-width:900px){
+    .topimage{
+        object-fit: cover;
+    }
+    .logo{
+        top: 40%;
+        height: 30%;
+        width: 20%;
+    }
+    .text1{
+        top: 55%;
+        left: 25%;
+        font-size: 1rem;
+    }
+    .line{
+        top: 45%;
+        left: 40%;
+    }
+    .text2{
+        top: 48%;
+        left: 43%;
+    }
+    .fe{
+        top: 50%;
+        left: 89%;
+    }
+    .pa{
+        left: 89%;
+    }
+    .nationaltext{
+        margin-top: 5%;
+        margin-bottom: 0%;
+    }
+    .topyellowbox{
+        height: 2%;
+        margin-bottom: 0.2%;
+    }
+    .bottomtop{
+        height: 10%;
+    }
+    .kathmandu{
+        font-size: 1rem;
+    }
+    .bhaktapur{
+        font-size: 1rem;
+    }
+    .lalitpur{
+        font-size: 1rem;
+    }
+    .search{
+        font-size: 1rem;
+    }
+    .searchbotton{
+        height: 40%;
+        width: 15%;
+    }
+    .combinetableanddata{
+        flex-direction: column;
+        margin-top: 4%;
+    }
+    .tablebox{
+        width: 95%;
+    }
+    .graphdata{
+        width: 95%;
+    }
+    .otherslogo{
+        height: 90%;
+        width: 50%;
+    }
+    .topimage1{
+        width: 12%;
+    }
+}
+
+
+@media(max-width:500px){
+    .top{
+        height: 12%;
+    }
+    .topimage{
+        object-fit: cover;
+    }
+    .logo{
+        height: 30%;
+        width: 25%;
+        top: 30%;
+    }
+    .text1{
+        font-size: 0.8;
+        left: 45%;
+        top: 20%;
+    }
+    .line{
+        height: 23%;
+        left: 74%;
+        top: 19%;
+    }
+    .text2{
+        font-size: 1.4rem;
+        left: 35%;
+        top: 44%;
+    }
+    .fe{
+        font-size: 0.6rem;
+        left: 55%;
+        top: 80%;
+        width: 20%;
+        height: 12%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .pa{
+        font-size: 0.58rem;
+        left: 76%;
+        top: 80%;
+        width: 22%;
+        height: 12%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .nationaltext{
+        font-size: 1.5rem;
+    }
+    .topyellowbox{
+        height: 1.5%;
+        width: 90%;
+    }
+    .contentbox{
+        width: 90%;
+    }
+    .bottomtop{
+        height: 9%;
+    }
+    .kathmandu{
+        font-size: 0.85rem;
+    }
+    .kathmandu>p{
+        font-size: 1.4vmax;
+    }
+    .bhaktapur{
+        font-size: 0.85rem;
+    }
+    .lalitpur{
+        font-size: 0.85rem;
+    }
+    .search{
+        font-size: 0.7rem;
+    }
+    .searchbotton{
+        height: 25%;
+        width: 20%;
+        left: 1%;
+    }
+    .tablebox{
+        margin-top: 5%;
+        height: 55%;
+    }
+    .tableheading{
+        font-size: 1rem;
+    }
+    .tableCPN{
+        font-size: 0.8rem;
+    }
+    .tablenepalicongress{
+        font-size: 0.8rem;
+    }
+    .tablemaoist{
+        font-size: 0.8rem;
+    }
+    .others{
+        font-size: 0.8rem;
+    }
+    .graphdata{
+        width: 90%;
+        height: 60%;
+    }
+    .t1{
+        font-size: 1rem;
+        top: 25%;
+    }
+    .t2{
+        font-size: 0.5rem;
+        top: 35%;
+        left: 28%;
+    }
+    .t3{
+        font-size: 0.5rem;
+        top: 35%;
+        left: 57%;
+    }
+    .t4{
+        font-size: 1rem;
+        top: 25%;
+        left: 71%;
+    }
+    .t5{
+        font-size: 1rem;
+        top: 25%;
+        left: 20%;
+    }
+    .t6{
+        font-size: 0.5rem;
+        top: 32%;
+        left: 28%;
+    }
+    .t7{
+        font-size: 0.5rem;
+        top: 32%;
+        left: 61%;
+    }
+    .t8{
+        font-size: 1rem;
+        left: 70%;
+        top: 25%;
+    }
+    .topimage1{
+        height: 36%;
+        width: 13%;
+    }
+    .toptext{
+        height: 36%;
+        width: 13%;
+    }
+    h3{
+        font-size: 1rem;
+    }
+    .bottomimage1{
+        height: 36%;
+        width: 13%;
+    }
+    .bottomimage2{
+        height: 36%;
+        width: 13%;
+    }
+    .tp1{
+        height: 55%;
+        width: 55%;
+    }
+    .tp2{
+        height: 57%;
+        width: 57%;
+    }
+    .tp3{
+        height: 55%;
+        width: 55%;
+    }
+    .otherslogo{
+        height: 65%;
+        width: 57%;
+    }
+}
